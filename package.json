@@ -1,0 +1,20 @@
+{
+  "name": "bamazon",
+  "version": "1.2.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "axios": "^0.18.1",
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1",
+    "dotenv":"^8.1.0",
+    "fs":"^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server4.js",
+    "watch": "nodemon server4.js"
+  },
+  "author": "AHLEE"
+}
